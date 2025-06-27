@@ -1,3 +1,7 @@
+## [v0.2.2] - 2025-06-26
+### Fixed
+-Enhancements and bug fixes
+
 ## [v0.2.0] - 2025-06-25
 ### Added
 - Support for `x-www-form-urlencoded` body type
@@ -19,3 +23,6 @@
 
 ### Removed
 - Temporarily disabled support for XML and Text body types; only JSON body is supported for now
+
+
+
