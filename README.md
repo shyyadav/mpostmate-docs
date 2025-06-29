@@ -32,4 +32,4 @@ With PostMate, you can:
 
 ## Feedback
 
-Please share feedback or feature requests via [GitHub Issues](https://github.com/shyyadav/mpostmate-docs/issues) (link coming soon).
+Please share feedback or feature requests via [GitHub Issues](https://github.com/shyyadav/mpostmate-docs/issues)
