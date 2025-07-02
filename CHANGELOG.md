@@ -1,13 +1,26 @@
-## [v0.2.5] - 2025-06-26
+## [v0.2.6] - 2025-07-01
+### Improvements & Fixes
+🔹 Spinner wait in response panel
+
+## [v0.2.6] - 2025-06-29
+### Improvements & Fixes
+🔹 fixed theme  
+🔹 Response toolbar added
+   * Copy response
+   * Open response in new tab
+   * Collapse all
+   * Expand all   
+
+## [v0.2.5] - 2025-06-29
 ### Improvements & Fixes
 🔹 fixed https://github.com/shyyadav/mpostmate-docs/issues/1  
 🔹 fixed issue with DELETE and PATCH
 
-## [v0.2.4] - 2025-06-26
+## [v0.2.4] - 2025-06-28
 ### Improvements & Fixes
 🔹 Enabled XML and plain text body for request  
 
-## [v0.2.3] - 2025-06-26
+## [v0.2.3] - 2025-06-27
 ### Improvements & Fixes
 🔹 Added support for GUIDs  
 🔹 Improved UI look and feel  
