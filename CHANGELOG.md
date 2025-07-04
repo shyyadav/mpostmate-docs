@@ -1,4 +1,9 @@
-## [v0.2.6] - 2025-07-01
+## [v0.2.8] - 2025-07-01
+### Improvements & Fixes
+🔹 User can create folder
+🔹 Drag itemes withing collection
+
+## [v0.2.7] - 2025-07-01
 ### Improvements & Fixes
 🔹 Spinner wait in response panel
 
