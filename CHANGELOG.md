@@ -1,4 +1,10 @@
-## [v0.2.14] - 2025-07-04
+## [v0.2.15] - 2025-08-04
+### Improvements & Fixes
+🔹 Option to create duplicate request
+🔹 Env. refresh button
+🔹 Minor Enhancement
+
+## [v0.2.14] - 2025-08-04
 ### Improvements & Fixes
 🔹 radio button on body tabs
 🔹 more persistent request data
