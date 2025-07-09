@@ -1,4 +1,21 @@
-## [v0.2.8] - 2025-07-01
+## [v0.2.14] - 2025-07-04
+### Improvements & Fixes
+🔹 radio button on body tabs
+🔹 more persistent request data
+
+## [v0.2.11] - 2025-07-04
+### Improvements & Fixes
+🔹 bug fixes
+
+## [v0.2.10] - 2025-07-04
+### Improvements & Fixes
+🔹 UI enhancement
+
+## [v0.2.9] - 2025-07-04
+### Improvements & Fixes
+🔹 Minor UI enhancement
+
+## [v0.2.8] - 2025-07-03
 ### Improvements & Fixes
 🔹 User can create folder
 🔹 Drag itemes withing collection
