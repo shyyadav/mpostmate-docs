@@ -1,3 +1,6 @@
+[v0.3.0] - 2025-07-18
+🔹 Import and export collections
+
 [v0.2.17] - 2025-07-13
 🔹 Import and export collections
 
