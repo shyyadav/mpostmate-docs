@@ -21,6 +21,7 @@ With PostMate, you can:
 - 🧩 Parameterize test data for flexible testing scenarios  
 - 💾 Request history & persistence 
 - 🔗 Request Chaining 
+- 🧪 Assertion
 
 ![Demo Screenshot](https://raw.githubusercontent.com/shyyadav/mpostmate-docs/main/images/img.PNG)
 
@@ -39,7 +40,7 @@ Data Tables let you manage test data separately from your API requests. This is 
 4.	Attach data table with your environment.
 5.	Use data table variable like "{{variable}}” in url, header or body
 6.	You can select the data while sending individual request
-
+![Demo Screenshot](https://raw.githubusercontent.com/shyyadav/mpostmate-docs/main/images/datatable.PNG)
 
 ## Feedback
 

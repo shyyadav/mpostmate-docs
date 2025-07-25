@@ -1,5 +1,8 @@
+[v0.3.7] - 2025-07-18
+🔹 Test Assertion: Test can be added and test result shwoing in respone panel.
+
 [v0.3.0] - 2025-07-18
-🔹 Import and export collections
+🔹 Data table per environment
 
 [v0.2.17] - 2025-07-13
 🔹 Import and export collections
