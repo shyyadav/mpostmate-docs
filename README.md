@@ -42,6 +42,9 @@ Data Tables let you manage test data separately from your API requests. This is 
 6.	You can select the data while sending individual request
 ![Demo Screenshot](https://raw.githubusercontent.com/shyyadav/mpostmate-docs/main/images/datatable.PNG)
 
+📊 Write test assertion with free hand test case writting.
+![Demo Screenshot](https://raw.githubusercontent.com/shyyadav/mpostmate-docs/main/images/Test.png)
+
 ## Feedback
 
 Please share feedback or feature requests via [GitHub Issues](https://github.com/shyyadav/mpostmate-docs/issues)
