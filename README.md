@@ -45,6 +45,19 @@ Data Tables let you manage test data separately from your API requests. This is 
 📊 Write test assertion with free hand test case writting.
 ![Demo Screenshot](https://raw.githubusercontent.com/shyyadav/mpostmate-docs/main/images/Test.png)
 
+📊 Write java script code to manupulate api response.
+- Reponse body (RESPONSE.body)
+- Response status (RESPONSE.status)
+
+- Example:
+    const resp = RESPONSE.body;
+    const students = resp.students;
+    students.forEach(s =>{
+        console.log(s.name);
+    });
+
+![Demo Screenshot](https://raw.githubusercontent.com/shyyadav/mpostmate-docs/main/images/Test.png)
+
 ## Feedback
 
 Please share feedback or feature requests via [GitHub Issues](https://github.com/shyyadav/mpostmate-docs/issues)

@@ -1,3 +1,6 @@
+[v0.3.8] - 2025-07-18
+🔹 Scripting: Under test tab you write java script code to manipulate respnse.
+
 [v0.3.7] - 2025-07-18
 🔹 Test Assertion: Test can be added and test result shwoing in respone panel.
 
