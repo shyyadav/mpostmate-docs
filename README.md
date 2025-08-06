@@ -50,12 +50,12 @@ Data Tables let you manage test data separately from your API requests. This is 
 - Response status (RESPONSE.status)
 
 - Example:
-    const resp = RESPONSE.body;
-    const students = resp.students;
-    students.forEach(s =>{
-        console.log(s.name);
-    });
-
+```const resp = RESPONSE.body;
+   const students = resp.students;
+   students.forEach(s =>{
+      console.log(s.name);
+   });
+```
 ![Demo Screenshot](https://raw.githubusercontent.com/shyyadav/mpostmate-docs/main/images/Test.png)
 
 ## Feedback

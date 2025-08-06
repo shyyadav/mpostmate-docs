@@ -1,3 +1,7 @@
+[v0.3.9] - 2025-08-05
+🔹 Collection ordering
+🔹 Increase robustness
+
 [v0.3.8] - 2025-07-18
 🔹 Scripting: Under test tab you write java script code to manipulate respnse.
 
@@ -48,31 +52,3 @@
 🔹 Open response in a new tab
 🔹 Collapse all
 🔹 Expand all
-
-[v0.2.5] - 2025-06-29
-🔹 Fixed Issue #1
-🔹 Resolved issues with DELETE and PATCH methods
-
-[v0.2.4] - 2025-06-28
-🔹 Enabled XML and plain text body types for requests
-
-[v0.2.3] - 2025-06-27
-🔹 Added support for GUIDs
-🔹 Improved UI look and feel
-🔹 Enabled opening requests in a new tab
-🔹 Enhanced output logging for better readability
-
-[v0.2.2] - 2025-06-26
-🔹 General enhancements and bug fixes
-
-[v0.2.0] - 2025-06-25
-🔹 Support for x-www-form-urlencoded body type
-🔹 Various bug fixes and UI enhancements for a smoother experience
-
-[v0.1.1] - 2025-06-22
-🔹 Ability to rename requests and collections
-🔹 Request panel title dynamically reflects the request name
-🔹 Collections refresh automatically when a request is loaded
-🔹 Improved handling for empty environments
-🔹 UI enhancements for a cleaner look and feel
-🔹 Temporarily disabled support for XML and text body types; only JSON body is supported for now
