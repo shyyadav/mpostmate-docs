@@ -22,6 +22,7 @@ With PostMate, you can:
 - 💾 Request history & persistence 
 - 🔗 Request Chaining 
 - 🧪 Assertion
+- 📦 Collection Run
 
 ![Demo Screenshot](https://raw.githubusercontent.com/shyyadav/mpostmate-docs/main/images/img.PNG)
 
@@ -57,6 +58,11 @@ Data Tables let you manage test data separately from your API requests. This is 
    });
 ```
 ![Demo Screenshot](https://raw.githubusercontent.com/shyyadav/mpostmate-docs/main/images/Test.png)
+
+📦 Collection Run:
+![Demo Screenshot](https://raw.githubusercontent.com/shyyadav/mpostmate-docs/main/images/collectionRunner.PNG)
+![Demo Screenshot](https://raw.githubusercontent.com/shyyadav/mpostmate-docs/main/images/RunResult.PNG)
+
 
 ## Feedback
 

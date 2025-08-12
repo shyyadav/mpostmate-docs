@@ -1,3 +1,6 @@
+[v0.4.0] - 2025-08-05
+🔹 Collection Runner
+
 [v0.3.9] - 2025-08-05
 🔹 Collection ordering
 🔹 Increase robustness
