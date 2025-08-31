@@ -43,8 +43,21 @@ Data Tables let you manage test data separately from your API requests. This is 
 6.	You can select the data while sending individual request
 ![Demo Screenshot](https://raw.githubusercontent.com/shyyadav/mpostmate-docs/main/images/datatable.PNG)
 
-📊 Write test assertion with free hand test case writting.
-![Demo Screenshot](https://raw.githubusercontent.com/shyyadav/mpostmate-docs/main/images/Test.png)
+📊 
+### Test / Assertion: 
+Postmate provides both scripting as well as writing test just in plain English for most ovious type of assertion.
+
+**_Writing tests just like plain English:_** go to Tests tab and click on Test sub tab.  
+You can have tests in tabular form where **_every row is a test_**. Test rows have 5 columns Test Types, Action, Expected, Test Description and a delete icon at last.
+
+**_Test Type:_**
+
+ 1. **Set Env Variable:** in case you want some data from the response to be stored in environment variable to use later or next request
+ ---
+ _**Tip:** just run your request once before you start writing test, so that you’ll get json path in suggestion to select._
+ ![json path helper](https://github.com/shyyadav/mpostmate-docs/blob/main/images/jsonPathHelper.PNG?raw=true)
+***Example use case:*** you want to store authorization-token in variable so that you can use it another request.
+![test type1](https://github.com/shyyadav/mpostmate-docs/blob/main/images/testType1.PNG?raw=true)
 
 📊 Write java script code to manupulate api response.
 - Reponse body (RESPONSE.body)
@@ -62,6 +75,17 @@ Data Tables let you manage test data separately from your API requests. This is 
 📦 Collection Run:
 ![Demo Screenshot](https://raw.githubusercontent.com/shyyadav/mpostmate-docs/main/images/collectionRunner.PNG)
 ![Demo Screenshot](https://raw.githubusercontent.com/shyyadav/mpostmate-docs/main/images/RunResult.PNG)
+
+## Licensing & Dependencies
+
+Copyright: © 2025 Shyam Narayan Yadav. All rights reserved.
+PostMate is licensed under a proprietary license. You are free to use it, but you may not redistribute, modify, or sell it without explicit permission.
+
+Third-Party Libraries: PostMate uses the following open-source packages:
+
+chai, mocha, node-fetch, jsonpath-plus, monaco-editor, uuid, esbuild, rimraf, typescript, vscode-test, @types/* packages
+
+These libraries are used under their respective licenses (mostly MIT or Apache 2.0). Please refer to each library for full license details.
 
 
 ## Feedback
