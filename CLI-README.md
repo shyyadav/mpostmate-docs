@@ -10,11 +10,11 @@ Postmate CLI enables environment-based execution, data-driven testing, JSON repo
 
 Install globally using npm:
 
-```bash
+```js
 npm install -g @postmate/cli
 ```
 Verify installation:
-```bash 
+```js 
 pmc --version
 ```
 📁 Project Structure
@@ -22,7 +22,7 @@ pmc --version
 Postmate CLI works inside a project that contains a .postmate directory.
 
 Example:
-```
+```js
 my-project/
 │
 ├── .postmate/
@@ -42,17 +42,21 @@ The CLI automatically detects the correct project folder.
 ▶️ Running a Collection
 
 Basic usage:
-```
+```js
 pmc run --collection <collectionName> --env <environmentName>
 ```
 Example:
-```
+```js
+pmc run --collection school --env Dev --data Prod_data --report myreport 
+pmc run -c school -e Dev -d Prod_data -r myreport 
+pmc run --report myreport --collection school --env Dev --data Prod_data 
+pmc run -r myreport --collection school --env Dev --data Prod_data 
 pmc run --collection school --env Dev
 ```
 Each row in the data file will execute the collection once.
 
 Variables like:
-```
+```js
 {{id}}
 {{username}}
 ```
@@ -61,7 +65,7 @@ will resolve per row.
 🧪 Execution Output
 
 Example terminal output:
-```
+```js
 🚀 Running school
 Env: Dev
 Iterations: 1
@@ -77,15 +81,15 @@ Report saved: .postmate/reports/school-Dev-2026-02-14T15-32-10.json
 📄 Reports
 
 After every run, a JSON report is automatically generated inside:
-```
+```js
 .postmate/reports/
 ```
 Filename format:
-```
+```js
 <collection>-<environment>-<timestamp>.json
 ```
 Example:
-```
+```js
 school-Dev-2026-02-14T15-32-10.json
 ```
 Reports can be:
@@ -100,7 +104,7 @@ Postmate CLI returns:
 - 1 → One or more failures
 
 Example:
-```
+```js
 pmc run --collection school --env Dev
 echo $?
 ```
@@ -108,11 +112,11 @@ This makes it ready for CI/CD pipelines.
 
 ⚙️ Command Reference
 Run Command
-```
+```js
 pmc run --collection <name> --env <envName> [--data <dataFile>]
 ```
 Options
-```
+```js
 | Option         | Description                      |
 | -------------- | -------------------------------- |
 | `--collection` | Collection name                  |
@@ -120,7 +124,7 @@ Options
 | `--data`       | Optional data file for iteration |
 ```
 🏗 CI Example (GitHub Actions)
-```
+```js
 - name: Run API Tests
   run: pmc run --collection school --env QA
 ```
